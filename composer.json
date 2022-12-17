@@ -1,0 +1,24 @@
+{
+    "name": "mvc/mvc-project",
+    "description": "we are build a mvc project with php and mysql",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "symfony/var-dumper": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/",
+            "App\\": "App/"
+        },
+        "files":[
+            "App/Support/Helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "testwork2001",
+            "email": "worktest9112001@gmail.com"
+        }
+    ]
+}
